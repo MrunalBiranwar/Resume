@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family:  "Roboto", sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+}
+header{
+    max-width: 1600px;
+    padding: 15px;
+    background-color: rgb(27, 27, 107);
+    color: rgb(223, 221, 221);
+}
+header h4{
+    font-size: xx-small;
+}
+.about_container{
+    min-width:800px ;
+    padding: 15px;
+}
+main{
+    display: flex;
+    max-width: 1600px;
+}
+.about_container p{
+    padding: 15px;
+    font-weight:bold;
+}
+.about_container h2{
+    color: rgb(32, 32, 138);
+    border-bottom: 1px solid #c4c2c2;
+    margin-bottom: 10px;
+}
+.work1{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 15px;
+}
+.info h4{
+    font-size: large;
+    font-weight: bold;
+}
+.work1 p{
+    font-style: italic;
+    margin-right: 35px;
+}
+.work ul li{
+    padding: 15px;
+    font-weight: bold;
+}
+.edu{
+    display: flex;
+    gap: 60px;
+}
+.edu .date{
+    max-width:70px;
+}
+.educ p{
+    font-style: italic;
+}
+.achivement ul{
+    padding-left: 150px;
+    font-weight: bold;
+}
+.personal_container{
+    background-color: #b9b9b9;
+    padding: 15px;
+    min-width: 350px;
+}
+.personal_container h3{
+    color: rgb(33, 33, 128);
+    border-bottom: 1px solid #b4b4b4;
+}
+.personal_container ul{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.personal_container ul li{
+    padding: 5px 0;
+}
+.checked{
+    color: rgb(35, 35, 141);
+}
+.list p{
+    width: 200px;
+    display: inline-block;
+}
+
